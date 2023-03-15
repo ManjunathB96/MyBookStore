@@ -25,3 +25,23 @@ export const newRegistration = async (req, res, next) => {
     });
   }
 };
+
+//controller to login registered user
+export const login = async (req, res, next) => {
+  console.log("started");
+  try {
+    const userToken= await UserService.login(req.body);
+    console.log(userToken);   
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      userToken: userToken,
+      message: 'Login successfully'
+    });
+  } catch (error) {
+    console.log("started");
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+  }
+};

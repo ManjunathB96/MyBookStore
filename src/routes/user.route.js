@@ -9,4 +9,7 @@ var router = express.Router();
 //route to create a new user
 router.post('', newUserValidator, userController.newRegistration);
 
+//route to login user
+router.post('/login',userController.login);
+
 export default router;
