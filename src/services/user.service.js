@@ -24,3 +24,27 @@ export const newRegistration = async (body) => {
     throw new Error('User already registered');
   }
 };
+
+//login :the user info will get from email
+export const login = async (body) => {
+  const data = await User.findOne({ email: body.email });
+  console.log(data);
+  if (data) {
+    const isMatch = bcrypt.compareSync(body.password, data.password);
+    if (isMatch) {
+      const token = jwt.sign(
+        { email: data.email, id: data._id },
+        process.env.SECRET_KEY
+      );
+      return token;
+    } else {
+      throw new Error('Invalid Password');
+    }
+  } else {
+    throw new Error('Invalid Email');
+  }
+};
+
+/*
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTYxMjNAZ21haWwuY29tIiwiaWQiOiI2NDEwNGEyYjhjNmQyNjQ4YTA3MGNjZGIiLCJpYXQiOjE2Nzg4NDQ2MDV9.ttcU5n2RuxVI-_X_lLL0qm1Sfjt2FZQb4IGOqmX_jwU
+*/
