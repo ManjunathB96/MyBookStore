@@ -2,7 +2,9 @@ import express from 'express';
 const router = express.Router();
 
 import userRoute from './user.route';
-//import bookRoute from './book.route';
+import bookRoute from './book.route';
+
+
 /**
  * Function contains Application routes
  *
@@ -11,7 +13,7 @@ import userRoute from './user.route';
 const routes = () => {
  router.use('/users', userRoute);
 
-// router.use('/books', bookRoute);
+ router.use('/books', bookRoute);
 
   return router;
 };
