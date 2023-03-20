@@ -56,3 +56,941 @@ info: ::1 - - [17/Mar/2023:11:21:27 +0000] "POST /api/v1/cart/add_to_cart/621480
 
 info: ::1 - - [17/Mar/2023:11:48:22 +0000] "POST /api/v1/cart/add_to_cart/6214803b05253301a4fda584 HTTP/1.1" 400 49 "-" "PostmanRuntime/7.31.3"
 
+info: ::1 - - [18/Mar/2023:15:13:08 +0000] "GET /api/v1/cart HTTP/1.1" 200 1112 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [18/Mar/2023:15:13:51 +0000] "POST /api/v1/books HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [18/Mar/2023:15:14:30 +0000] "POST /api/v1/books HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [18/Mar/2023:15:15:42 +0000] "GET /api/v1/books HTTP/1.1" 401 40 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [18/Mar/2023:15:16:47 +0000] "GET /api/v1/books HTTP/1.1" 401 40 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [18/Mar/2023:15:17:02 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [18/Mar/2023:15:17:28 +0000] "POST /api/v1/cart/add_to_cart/6215888305253301a4fda5cd HTTP/1.1" 400 44 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [18/Mar/2023:15:17:36 +0000] "GET /api/v1/cart HTTP/1.1" 200 1112 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [18/Mar/2023:16:58:47 +0000] "POST /api/v1/cart/add_to_cart/6215888305253301a4fda5cd HTTP/1.1" 400 90 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [18/Mar/2023:16:59:50 +0000] "POST /api/v1/cart/add_to_cart/6215888305253301a4fda5cd HTTP/1.1" 400 90 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [18/Mar/2023:17:02:25 +0000] "POST /api/v1/cart/add_to_cart/6215888305253301a4fda5cd HTTP/1.1" 500 54 "-" "PostmanRuntime/7.31.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'forEach')
+TypeError: Cannot read properties of undefined (reading 'forEach')
+    at D:\My-Book-Store\BookStore\src\controllers\/cart.controller.js:80:22
+    at D:\My-Book-Store\BookStore\node_modules\mongoose\lib\model.js:5082:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) {"date":"Sat Mar 18 2023 22:34:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7691.921},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18478647,"external":20014052,"heapTotal":95735808,"heapUsed":53597512,"rss":133296128},"pid":2816,"uid":null,"version":"v18.13.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'forEach')\n    at D:\\My-Book-Store\\BookStore\\src\\controllers\\/cart.controller.js:80:22\n    at D:\\My-Book-Store\\BookStore\\node_modules\\mongoose\\lib\\model.js:5082:18\n    at processTicksAndRejections (node:internal/process/task_queues:77:11)","trace":[{"column":22,"file":"D:\\My-Book-Store\\BookStore\\src\\controllers\\/cart.controller.js","function":null,"line":80,"method":null,"native":false},{"column":18,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\mongoose\\lib\\model.js","function":null,"line":5082,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":77,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of undefined (reading '_id')
+TypeError: Cannot read properties of undefined (reading '_id')
+    at D:\My-Book-Store\BookStore\src\controllers\/cart.controller.js:80:22
+    at D:\My-Book-Store\BookStore\node_modules\mongoose\lib\model.js:5082:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) {"date":"Sat Mar 18 2023 22:40:43 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":8075.343},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18495031,"external":20030436,"heapTotal":95997952,"heapUsed":53636528,"rss":134545408},"pid":12852,"uid":null,"version":"v18.13.0"},"stack":"TypeError: Cannot read properties of undefined (reading '_id')\n    at D:\\My-Book-Store\\BookStore\\src\\controllers\\/cart.controller.js:80:22\n    at D:\\My-Book-Store\\BookStore\\node_modules\\mongoose\\lib\\model.js:5082:18\n    at processTicksAndRejections (node:internal/process/task_queues:77:11)","trace":[{"column":22,"file":"D:\\My-Book-Store\\BookStore\\src\\controllers\\/cart.controller.js","function":null,"line":80,"method":null,"native":false},{"column":18,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\mongoose\\lib\\model.js","function":null,"line":5082,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":77,"method":null,"native":false}]}
+info: ::1 - - [18/Mar/2023:17:12:38 +0000] "POST /api/v1/cart/add_to_cart/6215888305253301a4fda5cd HTTP/1.1" 400 44 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [18/Mar/2023:17:15:25 +0000] "POST /api/v1/cart/add_to_cart/6214803b05253301a4fda584 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [18/Mar/2023:17:15:36 +0000] "GET /api/v1/cart HTTP/1.1" 200 223 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [18/Mar/2023:17:16:52 +0000] "POST /api/v1/cart/add_to_cart/6215178d05253301a4fda5c4 HTTP/1.1" 400 44 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [18/Mar/2023:17:20:17 +0000] "POST /api/v1/cart/add_to_cart/6215178d05253301a4fda5c4 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [18/Mar/2023:17:20:29 +0000] "GET /api/v1/cart HTTP/1.1" 200 431 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [18/Mar/2023:17:20:39 +0000] "POST /api/v1/cart/add_to_cart/6215178d05253301a4fda5c4 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [18/Mar/2023:17:20:43 +0000] "GET /api/v1/cart HTTP/1.1" 200 432 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [18/Mar/2023:17:21:11 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [18/Mar/2023:17:21:16 +0000] "GET /api/v1/cart HTTP/1.1" 200 624 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [18/Mar/2023:18:03:16 +0000] "GET /api/v1/cart HTTP/1.1" 200 624 "-" "PostmanRuntime/7.31.3"
+
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:923:11)
+    at WriteStream.Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (D:\My-Book-Store\BookStore\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\My-Book-Store\BookStore\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (D:\My-Book-Store\BookStore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at DerivedLogger.emit (node:domain:489:12)
+    at addChunk (D:\My-Book-Store\BookStore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12) {"date":"Sat Mar 18 2023 23:37:30 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":11481.984},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18409730,"external":19945135,"heapTotal":91435008,"heapUsed":48363592,"rss":130269184},"pid":3060,"uid":null,"version":"v18.13.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:923:11)\n    at WriteStream.Socket._write (node:net:935:8)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:337:10)\n    at Console.log (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Console.Writable.write (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:525:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:279:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":923,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":935,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":392,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":333,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":337,"method":"write","native":false},{"column":23,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":525,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:923:11)
+    at WriteStream.Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (D:\My-Book-Store\BookStore\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\My-Book-Store\BookStore\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (D:\My-Book-Store\BookStore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at DerivedLogger.emit (node:domain:489:12)
+    at addChunk (D:\My-Book-Store\BookStore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12) {"date":"Sat Mar 18 2023 23:37:30 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":11481.984},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18427775,"external":19963180,"heapTotal":91435008,"heapUsed":48734016,"rss":130277376},"pid":3060,"uid":null,"version":"v18.13.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:923:11)\n    at WriteStream.Socket._write (node:net:935:8)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:337:10)\n    at Console.log (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Console.Writable.write (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:525:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:279:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":923,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":935,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":392,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":333,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":337,"method":"write","native":false},{"column":23,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":525,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:923:11)
+    at WriteStream.Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (D:\My-Book-Store\BookStore\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\My-Book-Store\BookStore\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (D:\My-Book-Store\BookStore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at DerivedLogger.emit (node:domain:489:12)
+    at addChunk (D:\My-Book-Store\BookStore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12) {"date":"Sat Mar 18 2023 23:37:30 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":11482},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18445812,"external":19981217,"heapTotal":91435008,"heapUsed":49103344,"rss":130310144},"pid":3060,"uid":null,"version":"v18.13.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:923:11)\n    at WriteStream.Socket._write (node:net:935:8)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:337:10)\n    at Console.log (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Console.Writable.write (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:525:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:279:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":923,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":935,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":392,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":333,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":337,"method":"write","native":false},{"column":23,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":525,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:923:11)
+    at WriteStream.Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (D:\My-Book-Store\BookStore\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\My-Book-Store\BookStore\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (D:\My-Book-Store\BookStore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at DerivedLogger.emit (node:domain:489:12)
+    at addChunk (D:\My-Book-Store\BookStore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12) {"date":"Sat Mar 18 2023 23:37:30 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":11482},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18463845,"external":19999250,"heapTotal":91435008,"heapUsed":49468440,"rss":130322432},"pid":3060,"uid":null,"version":"v18.13.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:923:11)\n    at WriteStream.Socket._write (node:net:935:8)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:337:10)\n    at Console.log (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Console.Writable.write (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:525:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:279:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":923,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":935,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":392,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":333,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":337,"method":"write","native":false},{"column":23,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":525,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:923:11)
+    at WriteStream.Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (D:\My-Book-Store\BookStore\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\My-Book-Store\BookStore\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (D:\My-Book-Store\BookStore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at DerivedLogger.emit (node:domain:489:12)
+    at addChunk (D:\My-Book-Store\BookStore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12) {"date":"Sat Mar 18 2023 23:37:30 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":11482.015},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18481886,"external":20017291,"heapTotal":91435008,"heapUsed":49824944,"rss":130347008},"pid":3060,"uid":null,"version":"v18.13.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:923:11)\n    at WriteStream.Socket._write (node:net:935:8)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:337:10)\n    at Console.log (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Console.Writable.write (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:525:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:279:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":923,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":935,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":392,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":333,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":337,"method":"write","native":false},{"column":23,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":525,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:923:11)
+    at WriteStream.Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (D:\My-Book-Store\BookStore\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\My-Book-Store\BookStore\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (D:\My-Book-Store\BookStore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at DerivedLogger.emit (node:domain:489:12)
+    at addChunk (D:\My-Book-Store\BookStore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12) {"date":"Sat Mar 18 2023 23:37:30 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":11482.031},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18499931,"external":20035336,"heapTotal":91435008,"heapUsed":50193552,"rss":130375680},"pid":3060,"uid":null,"version":"v18.13.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:923:11)\n    at WriteStream.Socket._write (node:net:935:8)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:337:10)\n    at Console.log (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Console.Writable.write (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:525:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:279:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":923,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":935,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":392,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":333,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":337,"method":"write","native":false},{"column":23,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":525,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:923:11)
+    at WriteStream.Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (D:\My-Book-Store\BookStore\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\My-Book-Store\BookStore\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (D:\My-Book-Store\BookStore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at DerivedLogger.emit (node:domain:489:12)
+    at addChunk (D:\My-Book-Store\BookStore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12) {"date":"Sat Mar 18 2023 23:37:30 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":11482.031},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18505920,"external":20041325,"heapTotal":91435008,"heapUsed":50536536,"rss":130609152},"pid":3060,"uid":null,"version":"v18.13.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:923:11)\n    at WriteStream.Socket._write (node:net:935:8)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:337:10)\n    at Console.log (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Console.Writable.write (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:525:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:279:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":923,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":935,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":392,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":333,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":337,"method":"write","native":false},{"column":23,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":525,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:923:11)
+    at WriteStream.Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (D:\My-Book-Store\BookStore\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\My-Book-Store\BookStore\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (D:\My-Book-Store\BookStore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at DerivedLogger.emit (node:domain:489:12)
+    at addChunk (D:\My-Book-Store\BookStore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12) {"date":"Sat Mar 18 2023 23:37:30 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":11482.046},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18505920,"external":20041325,"heapTotal":91435008,"heapUsed":50870096,"rss":130609152},"pid":3060,"uid":null,"version":"v18.13.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:923:11)\n    at WriteStream.Socket._write (node:net:935:8)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:337:10)\n    at Console.log (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Console.Writable.write (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:525:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:279:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":923,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":935,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":392,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":333,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":337,"method":"write","native":false},{"column":23,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":525,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:923:11)
+    at WriteStream.Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (D:\My-Book-Store\BookStore\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\My-Book-Store\BookStore\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (D:\My-Book-Store\BookStore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (D:\My-Book-Store\BookStore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at DerivedLogger.emit (node:domain:489:12)
+    at addChunk (D:\My-Book-Store\BookStore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12) {"date":"Sat Mar 18 2023 23:37:30 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":11482.046},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18505920,"external":20041325,"heapTotal":91435008,"heapUsed":51164016,"rss":130617344},"pid":3060,"uid":null,"version":"v18.13.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:923:11)\n    at WriteStream.Socket._write (node:net:935:8)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:337:10)\n    at Console.log (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Console.Writable.write (D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:525:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:279:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":923,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":935,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":392,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":333,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":337,"method":"write","native":false},{"column":23,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":525,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false}]}
+info: ::1 - - [19/Mar/2023:14:25:23 +0000] "GET /api/v1/cart HTTP/1.1" 200 624 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:14:25:44 +0000] "POST /api/v1/cart/add_to_cart/6415f2d1a8afd0264cdcb0ec HTTP/1.1" 400 65 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:14:26:02 +0000] "POST /api/v1/cart/add_to_cart/6215178d05253301a4fda5c4 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:14:26:11 +0000] "GET /api/v1/cart HTTP/1.1" 200 624 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:14:54:40 +0000] "GET /api/v1/cart HTTP/1.1" 200 624 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:14:54:45 +0000] "POST /api/v1/cart/add_to_cart/6215178d05253301a4fda5c4 HTTP/1.1" 201 809 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:14:55:47 +0000] "POST /api/v1/cart/add_to_cart/6215178d05253301a4fda5c4 HTTP/1.1" 201 421 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:14:55:53 +0000] "GET /api/v1/cart HTTP/1.1" 404 63 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:19:19 +0000] "POST /api/v1/cart/add_to_cart/6215178d05253301a4fda5c4 HTTP/1.1" 201 431 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:19:23 +0000] "POST /api/v1/cart/add_to_cart/6215178d05253301a4fda5c4 HTTP/1.1" 400 61 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:21:15 +0000] "POST /api/v1/cart/add_to_cart/6215178d05253301a4fda5c4 HTTP/1.1" 400 54 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:22:16 +0000] "POST /api/v1/cart/add_to_cart/6215178d05253301a4fda5c4 HTTP/1.1" 400 71 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:22:52 +0000] "GET /api/v1/cart HTTP/1.1" 200 431 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:22:58 +0000] "GET /api/v1/cart HTTP/1.1" 200 431 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:24:09 +0000] "POST /api/v1/cart/add_to_cart/6215178d05253301a4fda5c4 HTTP/1.1" 201 631 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:24:22 +0000] "GET /api/v1/cart HTTP/1.1" 200 431 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:24:27 +0000] "GET /api/v1/cart HTTP/1.1" 200 431 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:24:32 +0000] "POST /api/v1/cart/add_to_cart/6215178d05253301a4fda5c4 HTTP/1.1" 201 631 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:24:43 +0000] "POST /api/v1/cart/add_to_cart/6215178d05253301a4fda5c4 HTTP/1.1" 201 631 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:24:49 +0000] "POST /api/v1/cart/add_to_cart/6215178d05253301a4fda5c4 HTTP/1.1" 201 631 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:25:10 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:25:22 +0000] "POST /api/v1/cart/add_to_cart/6215888305253301a4fda5cd HTTP/1.1" 201 622 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:25:33 +0000] "POST /api/v1/cart/add_to_cart/6215888305253301a4fda5cd HTTP/1.1" 201 622 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:25:38 +0000] "GET /api/v1/cart HTTP/1.1" 200 431 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:27:45 +0000] "GET /api/v1/cart HTTP/1.1" 400 81 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:27:53 +0000] "POST /api/v1/cart/add_to_cart/6215888305253301a4fda5cd HTTP/1.1" 201 414 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:28:02 +0000] "GET /api/v1/cart HTTP/1.1" 400 81 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:29:00 +0000] "GET /api/v1/cart HTTP/1.1" 400 81 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:29:03 +0000] "GET /api/v1/cart HTTP/1.1" 400 81 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:31:17 +0000] "POST /api/v1/cart/add_to_cart/6215888305253301a4fda5cd HTTP/1.1" 201 591 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:31:29 +0000] "GET /api/v1/cart HTTP/1.1" 400 81 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:33:49 +0000] "GET /api/v1/cart HTTP/1.1" 404 63 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:33:52 +0000] "GET /api/v1/cart HTTP/1.1" 404 63 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:35:37 +0000] "GET /api/v1/cart HTTP/1.1" 404 63 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:42:07 +0000] "GET /api/v1/cart HTTP/1.1" 404 63 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:42:11 +0000] "POST /api/v1/cart/add_to_cart/6215888305253301a4fda5cd HTTP/1.1" 201 422 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:42:19 +0000] "GET /api/v1/cart HTTP/1.1" 200 422 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:42:24 +0000] "POST /api/v1/cart/add_to_cart/6215888305253301a4fda5cd HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:42:30 +0000] "GET /api/v1/cart HTTP/1.1" 200 621 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:42:52 +0000] "POST /api/v1/cart/add_to_cart/6215888305253301a4fda5cd HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:43:01 +0000] "GET /api/v1/cart HTTP/1.1" 200 819 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:45:04 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:15:45:08 +0000] "GET /api/v1/cart HTTP/1.1" 200 1011 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:02:57 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:03:48 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 65 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:04:24 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:04:28 +0000] "GET /api/v1/cart HTTP/1.1" 200 1203 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:21:21 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:21:26 +0000] "GET /api/v1/cart HTTP/1.1" 200 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:21:30 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 65 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:25:03 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 65 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:25:05 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 65 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:27:09 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:27:13 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 430 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:27:18 +0000] "GET /api/v1/cart HTTP/1.1" 200 430 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:27:21 +0000] "GET /api/v1/cart HTTP/1.1" 200 430 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:27:37 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:27:42 +0000] "GET /api/v1/cart HTTP/1.1" 200 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:27:48 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:27:52 +0000] "GET /api/v1/cart HTTP/1.1" 200 430 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:28:07 +0000] "GET /api/v1/cart HTTP/1.1" 200 430 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:28:11 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 430 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:28:12 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 430 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:28:13 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 430 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:28:14 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 430 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:29:47 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:29:51 +0000] "GET /api/v1/cart HTTP/1.1" 200 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:29:54 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:29:56 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:30:00 +0000] "GET /api/v1/cart HTTP/1.1" 200 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:30:01 +0000] "GET /api/v1/cart HTTP/1.1" 200 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:34:17 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:34:20 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:34:23 +0000] "GET /api/v1/cart HTTP/1.1" 200 609 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:43:32 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:43:39 +0000] "GET /api/v1/cart HTTP/1.1" 200 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:43:44 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:43:48 +0000] "GET /api/v1/cart HTTP/1.1" 200 609 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:45:11 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:45:13 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:45:15 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:45:19 +0000] "GET /api/v1/cart HTTP/1.1" 200 801 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:49:24 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:49:26 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:49:52 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:49:55 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:16:49:59 +0000] "GET /api/v1/cart HTTP/1.1" 200 609 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:17:32:48 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:17:32:54 +0000] "GET /api/v1/cart HTTP/1.1" 200 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:17:32:59 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:17:33:05 +0000] "GET /api/v1/cart HTTP/1.1" 200 609 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:17:36:31 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:17:37:09 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 65 "-" "PostmanRuntime/7.31.3"
+
+error: uncaughtException: Cannot read properties of null (reading 'productId')
+TypeError: Cannot read properties of null (reading 'productId')
+    at D:\My-Book-Store\BookStore\src\services\/cart.service.js:97:48
+    at D:\My-Book-Store\BookStore\node_modules\mongoose\lib\model.js:5082:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) {"date":"Sun Mar 19 2023 23:07:09 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":96060.296},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18469065,"external":20002339,"heapTotal":54841344,"heapUsed":51093256,"rss":94715904},"pid":820,"uid":null,"version":"v18.13.0"},"stack":"TypeError: Cannot read properties of null (reading 'productId')\n    at D:\\My-Book-Store\\BookStore\\src\\services\\/cart.service.js:97:48\n    at D:\\My-Book-Store\\BookStore\\node_modules\\mongoose\\lib\\model.js:5082:18\n    at processTicksAndRejections (node:internal/process/task_queues:77:11)","trace":[{"column":48,"file":"D:\\My-Book-Store\\BookStore\\src\\services\\/cart.service.js","function":null,"line":97,"method":null,"native":false},{"column":18,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\mongoose\\lib\\model.js","function":null,"line":5082,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":77,"method":null,"native":false}]}
+info: ::1 - - [19/Mar/2023:17:39:48 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:17:39:51 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 44 "-" "PostmanRuntime/7.31.3"
+
+error: uncaughtException: Cannot read properties of null (reading 'productId')
+TypeError: Cannot read properties of null (reading 'productId')
+    at D:\My-Book-Store\BookStore\src\services\/cart.service.js:98:48
+    at D:\My-Book-Store\BookStore\node_modules\mongoose\lib\model.js:5082:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) {"date":"Sun Mar 19 2023 23:09:51 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":96221.64},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18470295,"external":20005700,"heapTotal":96260096,"heapUsed":54874672,"rss":134463488},"pid":10336,"uid":null,"version":"v18.13.0"},"stack":"TypeError: Cannot read properties of null (reading 'productId')\n    at D:\\My-Book-Store\\BookStore\\src\\services\\/cart.service.js:98:48\n    at D:\\My-Book-Store\\BookStore\\node_modules\\mongoose\\lib\\model.js:5082:18\n    at processTicksAndRejections (node:internal/process/task_queues:77:11)","trace":[{"column":48,"file":"D:\\My-Book-Store\\BookStore\\src\\services\\/cart.service.js","function":null,"line":98,"method":null,"native":false},{"column":18,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\mongoose\\lib\\model.js","function":null,"line":5082,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":77,"method":null,"native":false}]}
+info: ::1 - - [19/Mar/2023:17:49:12 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 353 "-" "PostmanRuntime/7.31.3"
+
+error: uncaughtException: Cannot read properties of null (reading 'productId')
+TypeError: Cannot read properties of null (reading 'productId')
+    at D:\My-Book-Store\BookStore\src\services\/cart.service.js:98:48
+    at D:\My-Book-Store\BookStore\node_modules\mongoose\lib\model.js:5082:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) {"date":"Sun Mar 19 2023 23:19:12 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":96783.031},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18993172,"external":20545042,"heapTotal":96436224,"heapUsed":56544016,"rss":134889472},"pid":8944,"uid":null,"version":"v18.13.0"},"stack":"TypeError: Cannot read properties of null (reading 'productId')\n    at D:\\My-Book-Store\\BookStore\\src\\services\\/cart.service.js:98:48\n    at D:\\My-Book-Store\\BookStore\\node_modules\\mongoose\\lib\\model.js:5082:18\n    at processTicksAndRejections (node:internal/process/task_queues:77:11)","trace":[{"column":48,"file":"D:\\My-Book-Store\\BookStore\\src\\services\\/cart.service.js","function":null,"line":98,"method":null,"native":false},{"column":18,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\mongoose\\lib\\model.js","function":null,"line":5082,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":77,"method":null,"native":false}]}
+info: ::1 - - [19/Mar/2023:17:52:48 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 353 "-" "PostmanRuntime/7.31.3"
+
+error: uncaughtException: Cannot read properties of null (reading 'productId')
+TypeError: Cannot read properties of null (reading 'productId')
+    at D:\My-Book-Store\BookStore\src\services\/cart.service.js:100:8
+    at D:\My-Book-Store\BookStore\node_modules\mongoose\lib\model.js:5082:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) {"date":"Sun Mar 19 2023 23:22:48 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":96999.39},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18999024,"external":20550894,"heapTotal":93552640,"heapUsed":56814264,"rss":132640768},"pid":9036,"uid":null,"version":"v18.13.0"},"stack":"TypeError: Cannot read properties of null (reading 'productId')\n    at D:\\My-Book-Store\\BookStore\\src\\services\\/cart.service.js:100:8\n    at D:\\My-Book-Store\\BookStore\\node_modules\\mongoose\\lib\\model.js:5082:18\n    at processTicksAndRejections (node:internal/process/task_queues:77:11)","trace":[{"column":8,"file":"D:\\My-Book-Store\\BookStore\\src\\services\\/cart.service.js","function":null,"line":100,"method":null,"native":false},{"column":18,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\mongoose\\lib\\model.js","function":null,"line":5082,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":77,"method":null,"native":false}]}
+info: ::1 - - [19/Mar/2023:17:54:23 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 353 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:17:54:34 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:17:55:17 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 353 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:17:57:20 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 353 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:17:57:23 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 353 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:01:59 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 353 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:09:11 +0000] "GET /api/v1/cart HTTP/1.1" 404 63 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:09:16 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:09:18 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 353 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:11:12 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 353 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:11:15 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 353 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:12:23 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 353 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:12:24 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 353 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:14:18 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 353 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:14:36 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:15:32 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 353 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:16:22 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 353 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:16:24 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 353 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:17:24 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 353 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:19:27 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 353 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:20:02 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 353 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:20:26 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 353 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:23:50 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:24:08 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:24:11 +0000] "GET /api/v1/cart HTTP/1.1" 200 801 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:25:36 +0000] "GET /api/v1/cart HTTP/1.1" 200 801 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:25:39 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:26:46 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:26:50 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:28:10 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:28:13 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:30:14 +0000] "GET /api/v1/cart HTTP/1.1" 200 1761 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:30:21 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:30:46 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 92 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:31:50 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 89 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:32:57 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:32:59 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:33:27 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:33:29 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:33:34 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:35:02 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:36:32 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 69 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:36:55 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 69 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:36:58 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 69 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:37:26 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 87 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:38:33 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 87 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:39:39 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 87 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:43:09 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:43:13 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:43:54 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:43:59 +0000] "GET /api/v1/cart HTTP/1.1" 200 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:44:02 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:44:06 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:44:51 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:44:55 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:44:58 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:45:02 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:45:06 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:46:48 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:46:55 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:46:58 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:47:01 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:48:36 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:48:39 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:48:42 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:49:12 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:49:19 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:49:25 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:49:26 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:50:48 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:50:50 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:50:57 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:51:04 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:57:39 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:57:41 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:57:46 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:57:52 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:18:57:56 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:03:47 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:03:48 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:03:50 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:03:52 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:06:12 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:06:13 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:06:17 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:06:24 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:06:27 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:10:09 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:10:10 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:10:14 +0000] "GET /api/v1/cart HTTP/1.1" 200 418 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:10:24 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:10:28 +0000] "GET /api/v1/cart HTTP/1.1" 200 418 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:11:07 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:11:08 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:11:11 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:15:07 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:15:10 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:15:15 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:15:17 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:16:09 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:16:11 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:16:14 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:16:20 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:16:24 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:16:30 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:16:33 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:17:16 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:17:18 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:17:22 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:18:35 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:18:36 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 87 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:19:20 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 64 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:20:19 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:20:24 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:20:28 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:20:31 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:21:01 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:21:04 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:21:08 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:21:12 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:21:15 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:21:58 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:21:59 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:22:04 +0000] "GET /api/v1/cart HTTP/1.1" 200 285 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:22:10 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:22:14 +0000] "GET /api/v1/cart HTTP/1.1" 200 477 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:23:13 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:23:14 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:23:18 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:24:16 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:24:18 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:24:22 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:24:26 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:24:29 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:27:40 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 434 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:27:42 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:27:46 +0000] "GET /api/v1/cart HTTP/1.1" 200 435 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:27:52 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:27:55 +0000] "GET /api/v1/cart HTTP/1.1" 200 435 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:31:13 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:31:15 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 64 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:32:04 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:32:09 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:32:13 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:32:15 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:32:20 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [19/Mar/2023:19:32:23 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:02:58:09 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:02:58:12 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 85 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:02:59:37 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 85 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:02:59:40 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 85 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:02:04 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 434 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:02:06 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 85 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:02:28 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:02:32 +0000] "GET /api/v1/cart HTTP/1.1" 200 435 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:02:38 +0000] "GET /api/v1/cart HTTP/1.1" 200 435 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:03:48 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 434 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:03:51 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 69 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:04:56 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:05:00 +0000] "GET /api/v1/cart HTTP/1.1" 200 435 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:05:06 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:05:10 +0000] "GET /api/v1/cart HTTP/1.1" 200 435 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:05:46 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 434 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:05:48 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:05:52 +0000] "GET /api/v1/cart HTTP/1.1" 200 435 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:07:23 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:07:24 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:07:28 +0000] "GET /api/v1/cart HTTP/1.1" 200 435 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:08:33 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:08:37 +0000] "GET /api/v1/cart HTTP/1.1" 200 435 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:09:05 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 64 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:18:52 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:18:54 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 64 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:19:02 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 400 64 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:20:05 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:20:06 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:20:10 +0000] "GET /api/v1/cart HTTP/1.1" 200 609 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:23:15 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:25:00 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:26:46 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:30:58 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:31:00 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:31:05 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:31:50 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:31:51 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:31:54 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:32:02 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:33:45 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:33:48 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:33:52 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:34:37 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:34:38 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:34:42 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:34:46 +0000] "GET /api/v1/cart HTTP/1.1" 200 417 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:38:34 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:38:36 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:38:38 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:38:41 +0000] "GET /api/v1/cart HTTP/1.1" 200 465 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:39:33 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:39:57 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 416 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:39:59 +0000] "POST /api/v1/cart/add_to_cart/621588d505253301a4fda5cf HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:40:06 +0000] "POST /api/v1/cart/add_to_cart/621588f105253301a4fda5d0 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:40:11 +0000] "POST /api/v1/cart/add_to_cart/621588f105253301a4fda5d0 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:40:18 +0000] "GET /api/v1/cart HTTP/1.1" 200 405 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:40:34 +0000] "POST /api/v1/cart/add_to_cart/621588f105253301a4fda5d0 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:42:20 +0000] "POST /api/v1/cart/add_to_cart/621588f105253301a4fda5d0 HTTP/1.1" 201 404 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:42:37 +0000] "GET /api/v1/cart HTTP/1.1" 200 404 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:42:45 +0000] "POST /api/v1/cart/add_to_cart/6215893e05253301a4fda5d3 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:42:49 +0000] "GET /api/v1/cart HTTP/1.1" 200 586 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:43:07 +0000] "POST /api/v1/cart/add_to_cart/6215893e05253301a4fda5d3 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:43:10 +0000] "GET /api/v1/cart HTTP/1.1" 200 407 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:44:03 +0000] "POST /api/v1/cart/add_to_cart/6215893e05253301a4fda5d3 HTTP/1.1" 201 406 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:44:21 +0000] "POST /api/v1/cart/add_to_cart/6215897105253301a4fda5d5 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:44:24 +0000] "GET /api/v1/cart HTTP/1.1" 200 583 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:44:32 +0000] "POST /api/v1/cart/add_to_cart/6215897105253301a4fda5d5 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:44:36 +0000] "GET /api/v1/cart HTTP/1.1" 200 760 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:47:44 +0000] "POST /api/v1/cart/add_to_cart/6215897105253301a4fda5d5 HTTP/1.1" 201 401 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:47:46 +0000] "POST /api/v1/cart/add_to_cart/6215897105253301a4fda5d5 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:47:50 +0000] "GET /api/v1/cart HTTP/1.1" 200 577 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:48:36 +0000] "POST /api/v1/cart/add_to_cart/6215897105253301a4fda5d5 HTTP/1.1" 201 401 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:48:37 +0000] "POST /api/v1/cart/add_to_cart/6215897105253301a4fda5d5 HTTP/1.1" 400 64 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:49:26 +0000] "POST /api/v1/cart/add_to_cart/6215897105253301a4fda5d5 HTTP/1.1" 201 401 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:49:27 +0000] "POST /api/v1/cart/add_to_cart/6215897105253301a4fda5d5 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:49:31 +0000] "GET /api/v1/cart HTTP/1.1" 200 577 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:49:50 +0000] "POST /api/v1/cart/add_to_cart/6215895605253301a4fda5d4 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:49:53 +0000] "GET /api/v1/cart HTTP/1.1" 200 751 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:51:38 +0000] "POST /api/v1/cart/add_to_cart/6215895605253301a4fda5d4 HTTP/1.1" 201 398 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:51:39 +0000] "POST /api/v1/cart/add_to_cart/6215895605253301a4fda5d4 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:51:43 +0000] "GET /api/v1/cart HTTP/1.1" 200 572 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:51:46 +0000] "GET /api/v1/cart HTTP/1.1" 200 572 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:53:30 +0000] "POST /api/v1/cart/add_to_cart/6215895605253301a4fda5d4 HTTP/1.1" 201 398 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:53:31 +0000] "POST /api/v1/cart/add_to_cart/6215895605253301a4fda5d4 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:53:35 +0000] "GET /api/v1/cart HTTP/1.1" 200 398 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:54:51 +0000] "POST /api/v1/cart/add_to_cart/6215895605253301a4fda5d4 HTTP/1.1" 201 398 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:54:53 +0000] "POST /api/v1/cart/add_to_cart/6215895605253301a4fda5d4 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:54:56 +0000] "GET /api/v1/cart HTTP/1.1" 200 398 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:54:59 +0000] "GET /api/v1/cart HTTP/1.1" 200 398 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:55:03 +0000] "POST /api/v1/cart/add_to_cart/6215895605253301a4fda5d4 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:55:06 +0000] "GET /api/v1/cart HTTP/1.1" 200 398 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:58:04 +0000] "POST /api/v1/cart/add_to_cart/6215895605253301a4fda5d4 HTTP/1.1" 201 398 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:58:05 +0000] "POST /api/v1/cart/add_to_cart/6215895605253301a4fda5d4 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:03:58:08 +0000] "GET /api/v1/cart HTTP/1.1" 200 398 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:04:00:06 +0000] "POST /api/v1/cart/add_to_cart/6215895605253301a4fda5d4 HTTP/1.1" 201 398 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:04:00:08 +0000] "POST /api/v1/cart/add_to_cart/6215895605253301a4fda5d4 HTTP/1.1" 400 105 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:04:02:10 +0000] "POST /api/v1/cart/add_to_cart/6215895605253301a4fda5d4 HTTP/1.1" 201 398 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:04:02:16 +0000] "POST /api/v1/cart/add_to_cart/6215895605253301a4fda5d4 HTTP/1.1" 400 105 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:04:02:57 +0000] "POST /api/v1/cart/add_to_cart/6215895605253301a4fda5d4 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:04:03:01 +0000] "POST /api/v1/cart/add_to_cart/6215895605253301a4fda5d4 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:04:03:03 +0000] "GET /api/v1/cart HTTP/1.1" 200 398 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:04:24:05 +0000] "POST /api/v1/cart/add_to_cart/6215895605253301a4fda5d4 HTTP/1.1" 201 398 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:04:26:39 +0000] "POST /api/v1/cart/add_to_cart/6215895605253301a4fda5d4 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:04:26:45 +0000] "GET /api/v1/cart HTTP/1.1" 200 398 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:04:27:18 +0000] "POST /api/v1/cart/add_to_cart/6215898705253301a4fda5d6 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [20/Mar/2023:04:27:22 +0000] "GET /api/v1/cart HTTP/1.1" 200 562 "-" "PostmanRuntime/7.31.3"
+
