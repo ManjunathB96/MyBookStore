@@ -7,9 +7,14 @@ const router = express.Router();
 
 
 //route to add book to cart
-router.post('/add_to_cart/:bookId', userAuth, cartController.addBookToCart);
+router.post('/add/book/:bookId', userAuth, cartController.addBookToCart);     //Here bookId we need to pass 
 
 //route to get cart details
 router.get('', userAuth, cartController.getBookFromCart);
 
+//route to remove from cart
+router.post('/remove/book/:bookId',userAuth,cartController.removeBookFromCart)   //Here productID we neeed to pass
+
+
 export default router;
+
