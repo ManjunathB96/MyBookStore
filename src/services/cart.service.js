@@ -7,10 +7,13 @@ export const addBookToCart = async (userID, bookId) => {
   if (!book && book.quantity <= 1) {
     throw new Error('Book Not Available  or  Book Out of Stock');
   }
-  let cart = await Cart.findOne({ userID: userID, isPurchased: false });
+  let cart = await Cart.findOne({ userId: userID, isPurchased: false });
+
   if (!cart) {
+ console.log("Book id---------->",bookId);
+  console.log("user id----------->",userID);
     cart = await Cart.create({
-      userID: userID,
+      userId: userID,
       books: [
         {
           productID: book._id,
@@ -41,7 +44,7 @@ export const addBookToCart = async (userID, bookId) => {
     const bookObj = {};
     bookObj['books.' + idx + '.quantity'] = 1;
     bookObj['cartTotal'] = book.price;
-   
+
     newCart = Cart.updateOne(
       { _id: cart._id },
       {
@@ -87,6 +90,58 @@ export const addBookToCart = async (userID, bookId) => {
 
 //get user cart
 export const getBookFromCart = async (userID) => {
-  const data = await Cart.findOne({ userID: userID, isPurchased: false });
+  const data = await Cart.findOne({ userId: userID, isPurchased: false });
   return data;
 };
+
+
+//remove book from cart 
+export const removeBookFromCart = async (userID, bookId,isAllBooks=false) => {
+  console.log("Book id---------->",bookId);
+  console.log("user id----------->",userID);
+   const book = await BookService.getSingleBook(bookId);
+   if(!book){
+ 	 throw new Error('Book not found');
+ 	}
+  console.log("book details",book);
+  var cart = await Cart.findOne({ userId: userID });
+  console.log("Book present in cart ==--->",cart);
+  if (!cart) {
+    throw new Error('cart is not available');
+  }
+let bookExisting=false
+
+let idx
+console.log("details",cart.books);
+for (idx = 0; idx < cart.books.length; idx++) {
+ if (cart.books[idx].productID == bookId) {
+  bookExisting=true
+  break;
+ }
+}
+ let newCart;
+  if(bookExisting){
+    console.log("idx  --->",idx);
+    if(cart.books[idx].quantity == 1  || cart.books[idx].quantity == 0 || isAllBooks) {
+      newCart = Cart.updateOne({ _id: cart._id},
+        {
+          $pull: {
+            books: {
+              productID: book.id
+            }
+          },
+          $inc: {
+            cartTotal: -(book.price * cart.books[idx].quantity)
+          }
+        }
+      );
+    } else {
+      const bookObj = {};
+      bookObj["books."+idx+".quantity"] = -1;
+      bookObj["cartTotal"] = -book.price;
+      newCart = Cart.updateOne({ _id: cart._id},{$inc: bookObj});
+    }
+  }
+  return newCart;
+}
+
