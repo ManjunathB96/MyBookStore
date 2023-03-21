@@ -1435,3 +1435,143 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-20T1
 info: Connected to the database. {"timestamp":"2023-03-20T17:52:39.284Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T05:39:33.220Z"}
 info: Connected to the database. {"timestamp":"2023-03-21T05:39:33.316Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T07:26:41.983Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T07:26:42.027Z"}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\My-Book-Store\BookStore\node_modules\express\lib\router\index.js:469:13)
+    at routes (D:\My-Book-Store\BookStore\src\routes\/index.js:21:10)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Tue Mar 21 2023 13:31:55 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":234343.515},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18893808,"external":20410078,"heapTotal":94318592,"heapUsed":58493040,"rss":135581696},"pid":13360,"uid":null,"version":"v18.13.0"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (D:\\My-Book-Store\\BookStore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js:21:10)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-03-21T08:01:55.704Z","trace":[{"column":13,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js","function":"routes","line":21,"method":null,"native":false},{"column":38,"file":"D:\\My-Book-Store\\BookStore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: Connected to the database. {"timestamp":"2023-03-21T08:01:55.791Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T08:03:19.423Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T08:03:19.480Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T08:03:28.308Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T08:03:28.344Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T08:06:10.931Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T08:06:10.960Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T08:06:44.577Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T08:06:44.613Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T08:07:37.056Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T08:07:37.098Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T08:07:54.335Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T08:07:54.363Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T08:08:13.925Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T08:08:13.959Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T08:10:07.430Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T08:10:07.459Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T08:10:27.582Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T08:10:27.617Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T08:10:43.742Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T08:10:43.793Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T08:10:50.048Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T08:10:50.086Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T08:11:25.280Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T08:11:25.344Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T08:11:41.868Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T08:11:41.898Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T08:11:58.334Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T08:11:58.379Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T08:12:03.531Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T08:12:03.561Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T08:13:37.408Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T08:13:37.434Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T08:14:04.877Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T08:14:04.916Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T08:14:33.102Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T08:14:33.146Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:08:29.730Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:08:29.765Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:10:09.837Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:10:09.875Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:11:02.606Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:11:02.633Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:11:38.883Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:11:38.913Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:11:49.873Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:11:49.962Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:11:56.306Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:11:56.350Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:12:39.806Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:12:39.838Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:18:37.347Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:18:37.401Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:19:12.197Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:19:12.226Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:19:22.068Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:19:22.092Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:19:44.813Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:19:44.845Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:21:22.816Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:21:22.843Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:22:53.884Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:22:53.911Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:24:43.429Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:24:43.457Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:24:49.774Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:24:49.798Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:25:00.542Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:25:00.574Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:26:39.029Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:26:39.061Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:26:47.886Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:26:47.918Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:27:03.089Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:27:03.130Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:27:20.973Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:27:21.017Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:27:38.787Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:27:38.822Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:27:46.372Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:27:46.405Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:27:52.510Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:27:52.553Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:27:59.239Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:27:59.270Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:28:07.084Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:28:07.115Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:28:31.833Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:28:31.863Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:28:50.531Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:28:50.570Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:28:59.630Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:28:59.664Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:29:39.099Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:29:39.158Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:30:08.794Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:30:08.828Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:30:18.996Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:30:19.092Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:30:31.686Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:30:31.713Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:30:47.111Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:30:47.171Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:30:53.282Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:30:53.331Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:31:02.941Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:31:02.980Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:31:15.939Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:31:15.977Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:31:27.522Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:31:27.554Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:45:31.584Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:45:31.622Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:45:48.319Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:45:48.356Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T11:45:53.629Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T11:45:53.663Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T18:28:13.006Z"}
+info: Connected to the database. {"timestamp":"2023-03-21T18:28:13.179Z"}
