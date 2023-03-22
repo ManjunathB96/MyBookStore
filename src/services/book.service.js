@@ -1,15 +1,26 @@
 import Book from '../models/book.model';
 
-//to get all books
-export const getAllBooks = async () => {
-  const data = await Book.find();
+export const getAllBooks = async (req) => {
+  let { page, size } = req.query;
+  if (!page) {
+    page = 1;
+  }
+  if (!size) {
+    size = 5;
+  }
+  const limit = parseInt(size);
+  const skip = (page - 1) * size;
+
+  const data = await Book.find().limit(limit).skip(skip);
+  //or
+  // const data = await Book.find({},{},{limit:limit,skip:skip})
+
   if (!data) {
     throw new Error('Fetching  all books failed!');
   } else {
     return data;
   }
 };
-
 
 //to get single  book
 export const getSingleBook = async (_id) => {
