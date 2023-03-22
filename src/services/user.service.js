@@ -45,6 +45,3 @@ export const login = async (body) => {
   }
 };
 
-/*
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTYxMjNAZ21haWwuY29tIiwiaWQiOiI2NDEwNGEyYjhjNmQyNjQ4YTA3MGNjZGIiLCJpYXQiOjE2Nzg4NDQ2MDV9.ttcU5n2RuxVI-_X_lLL0qm1Sfjt2FZQb4IGOqmX_jwU
-*/
