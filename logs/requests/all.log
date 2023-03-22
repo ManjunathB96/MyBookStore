@@ -1222,3 +1222,27 @@ info: ::1 - - [21/Mar/2023:05:42:00 +0000] "POST /api/v1/cart/remove/book/621588
 
 info: ::1 - - [21/Mar/2023:05:42:06 +0000] "GET /api/v1/cart HTTP/1.1" 200 259 "-" "PostmanRuntime/7.31.3"
 
+info: ::1 - - [22/Mar/2023:16:52:00 +0000] "POST /api/v1/purchase HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [22/Mar/2023:16:52:13 +0000] "POST /api/v1/cart/purchase HTTP/1.1" 400 144 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [22/Mar/2023:16:53:29 +0000] "POST /api/v1/books HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [22/Mar/2023:16:54:01 +0000] "GET /api/v1/books HTTP/1.1" 200 8672 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [22/Mar/2023:16:54:29 +0000] "POST /api/v1/cart HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [22/Mar/2023:16:54:34 +0000] "GET /api/v1/cart HTTP/1.1" 200 440 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [22/Mar/2023:16:55:25 +0000] "POST /api/v1/cart/purchase/64104a2b8c6d2648a070ccdb HTTP/1.1" 400 144 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [22/Mar/2023:16:56:43 +0000] "POST /api/v1/cart/purchase/64104a2b8c6d2648a070ccdb HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [22/Mar/2023:16:57:03 +0000] "POST /api/v1/cart/purchase/64189b913c41ae2c5c219426 HTTP/1.1" 201 442 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [22/Mar/2023:16:58:05 +0000] "POST /api/v1/cart/purchase/64189b913c41ae2c5c219426 HTTP/1.1" 201 441 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [22/Mar/2023:16:59:17 +0000] "POST /api/v1/cart/purchase/64189b913c41ae2c5c219426 HTTP/1.1" 201 441 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [22/Mar/2023:17:01:59 +0000] "POST /api/v1/cart/add_book/621588f105253301a4fda5d0 HTTP/1.1" 201 440 "-" "PostmanRuntime/7.31.3"
+
