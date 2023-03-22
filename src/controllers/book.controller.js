@@ -10,7 +10,7 @@ import * as BookService from '../services/book.service';
  * */
 export const getAllBooks = async (req, res, next) => {
   try {
-    const data = await BookService.getAllBooks();
+    const data = await BookService.getAllBooks(req);
     console.log('getAllBooks__', data);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
