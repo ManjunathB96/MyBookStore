@@ -39,10 +39,7 @@ const cartSchema = new Schema(
       type: Boolean,
       default: false
     }
-    // totalQuantity: {
-    //   type: Number,
-    //   default: 0
-    // }
+  
   },
   {
     timestamps: true

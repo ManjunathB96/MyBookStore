@@ -2,14 +2,12 @@ import Book from '../models/book.model';
 
 //to get all books
 export const getAllBooks = async () => {
-  const data = await Book.find();
   if (!data) {
     throw new Error('Fetching  all books failed!');
   } else {
     return data;
   }
 };
-
 
 //to get single  book
 export const getSingleBook = async (_id) => {
