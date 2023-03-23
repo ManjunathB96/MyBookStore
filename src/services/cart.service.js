@@ -145,3 +145,15 @@ for (idx = 0; idx < cart.books.length; idx++) {
   return newCart;
 }
 
+// Purchase By Id from cart
+export const purchaseBookById = async (_id, userId) => {
+    const myPurchase = await Cart.findByIdAndUpdate({
+      _id: _id,
+      userId: userId,
+      isPurchased: true
+    });
+    if (!myPurchase) {
+      throw new Error('Enter valid userId');
+    }
+    return myPurchase;
+  };

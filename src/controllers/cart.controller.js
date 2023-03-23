@@ -99,42 +99,36 @@ export const removeBookFromCart = async (req, res, next) => {
   }
 };
 
+/**
+ * Controller to purchase book by id 
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const purchaseBookById = async (req, res) => {
+  try {
+    const data = await CartService.purchaseBookById(req.params._id);
+    if (data) {
+      res.status(HttpStatus.CREATED).json({
+        code: HttpStatus.CREATED,
+        data: data,
+        message: 'Book purchased successfully'
+      });
+    } else {
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: 'Failed to purchase'
+      });
+    }
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+  }
+};
 
 
 
 
 
-
-
-
-
-
-
-
-
-// /**
-//  * Controller to remove book from cart
-//  * @param  {object} req - request object
-//  * @param {object} res - response object
-//  * @param {Function} next
-//  */
-// export const removeBookFromCart = async (req, res, next) => {
-//   try {
-//     const data = await CartService.removeBookFromCart(req.body.userId, req.params.bookId);
-//     if(data.message == 'Book not found.'){
-//       res.status(HttpStatus.NOT_FOUND).json({
-//         code: HttpStatus.NOT_FOUND,
-//         data: data,
-//         message: 'Book Not Found'
-//       });
-//     } else {
-//       res.status(HttpStatus.ACCEPTED).json({
-//         code: HttpStatus.ACCEPTED,
-//         data: data,
-//         message: 'Book removed successfully'
-//       });
-//     }
-//   } catch (error) {
-//     next(error);
-//   }
-// };

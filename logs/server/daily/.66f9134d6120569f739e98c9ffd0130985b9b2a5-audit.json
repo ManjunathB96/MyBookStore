@@ -36,9 +36,15 @@
             "hash": "9328c1dacfd71d67e0c4f225453e9727678ee679d895e380b16fb3240fd65c21"
         },
         {
+<<<<<<< HEAD
             "date": 1679423976759,
             "name": "logs\\server\\daily\\2023-03-22.log",
             "hash": "359505826e2682cc1adf0689c513ce4936a949ca6688113e7d7860b24be6070e"
+=======
+            "date": 1679503605048,
+            "name": "logs\\server\\daily\\2023-03-22.log",
+            "hash": "ab585e91b893b737cd69421a17feaa1711d8f1ab578a97efb520b848033be15c"
+>>>>>>> Cart
         }
     ],
     "hashType": "sha256"

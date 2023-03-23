@@ -4,16 +4,17 @@ import { userAuth } from '../middlewares/auth.middleware';
 
 const router = express.Router();
 
-
 //route to get cart details
 router.get('', userAuth, cartController.getBookFromCart);
 
 //route to add book to cart
-router.post('/add/book/:bookId', userAuth, cartController.addBookToCart);     //Here bookId we need to pass 
+router.post('/add_book/:bookId', userAuth, cartController.addBookToCart);     //Here bookId we need to pass 
 
 //route to remove from cart
-router.post('/remove/book/:bookId',userAuth,cartController.removeBookFromCart)   //Here productID we neeed to pass
+router.post('/remove_book/:bookId',userAuth,cartController.removeBookFromCart)   //Here productID we neeed to pass
 
+//route to purchase cart books
+router.post('/purchase/:_id', userAuth, cartController.purchaseBookById);         //here CartId is required
 
 export default router;
 

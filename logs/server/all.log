@@ -1435,6 +1435,7 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-20T1
 info: Connected to the database. {"timestamp":"2023-03-20T17:52:39.284Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T05:39:33.220Z"}
 info: Connected to the database. {"timestamp":"2023-03-21T05:39:33.316Z"}
+<<<<<<< HEAD
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-21T07:26:41.983Z"}
 info: Connected to the database. {"timestamp":"2023-03-21T07:26:42.027Z"}
 error: uncaughtException: Router.use() requires a middleware function but got a Object
@@ -1657,3 +1658,37 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-22T1
 info: Connected to the database. {"timestamp":"2023-03-22T11:39:10.973Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-22T16:14:53.261Z"}
 info: Connected to the database. {"timestamp":"2023-03-22T16:14:53.382Z"}
+=======
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-22T16:46:45.119Z"}
+info: Connected to the database. {"timestamp":"2023-03-22T16:46:45.148Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-22T16:48:38.706Z"}
+info: Connected to the database. {"timestamp":"2023-03-22T16:48:38.748Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-22T16:49:52.844Z"}
+info: Connected to the database. {"timestamp":"2023-03-22T16:49:52.887Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-22T16:50:00.253Z"}
+info: Connected to the database. {"timestamp":"2023-03-22T16:50:00.329Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-22T16:50:05.803Z"}
+info: Connected to the database. {"timestamp":"2023-03-22T16:50:05.839Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-22T16:50:19.936Z"}
+info: Connected to the database. {"timestamp":"2023-03-22T16:50:19.982Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-22T16:52:47.977Z"}
+info: Connected to the database. {"timestamp":"2023-03-22T16:52:48.007Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-22T16:55:58.974Z"}
+info: Connected to the database. {"timestamp":"2023-03-22T16:55:59.032Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-22T16:56:20.496Z"}
+info: Connected to the database. {"timestamp":"2023-03-22T16:56:20.527Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-22T16:56:36.101Z"}
+info: Connected to the database. {"timestamp":"2023-03-22T16:56:36.130Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-22T16:57:57.348Z"}
+info: Connected to the database. {"timestamp":"2023-03-22T16:57:57.376Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-22T16:59:06.684Z"}
+info: Connected to the database. {"timestamp":"2023-03-22T16:59:06.726Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-22T16:59:11.989Z"}
+info: Connected to the database. {"timestamp":"2023-03-22T16:59:12.020Z"}
+>>>>>>> Cart
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-22T18:10:49.365Z"}
+info: Connected to the database. {"timestamp":"2023-03-22T18:10:49.389Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-22T18:11:23.437Z"}
+info: Connected to the database. {"timestamp":"2023-03-22T18:11:23.474Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-22T18:12:02.753Z"}
+info: Connected to the database. {"timestamp":"2023-03-22T18:12:02.838Z"}
