@@ -25,30 +25,25 @@ const bookSchema = new Schema(
     },
     price: {
       type: Number
-    }
+    },
+    ratings: [
+      {
+        userId: {
+          type: String
+        },
+        description: {
+          type: String
+        },
+        ratings: {
+          type: Number
+        }
+      }
+    ]
   },
+
   {
     timestamps: true
   }
 );
 
 export default model('Books', bookSchema);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

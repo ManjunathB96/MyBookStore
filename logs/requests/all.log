@@ -1413,3 +1413,459 @@ info: ::1 - - [22/Mar/2023:18:13:27 +0000] "POST /api/v1/cart/add_book/621588f10
 
 info: ::1 - - [22/Mar/2023:18:13:33 +0000] "GET /api/v1/cart HTTP/1.1" 200 440 "-" "PostmanRuntime/7.31.3"
 
+info: ::1 - - [23/Mar/2023:07:48:03 +0000] "GET /api/v1/search?Data%20Structures HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:07:48:12 +0000] "GET /api/v1/search/?Data%20Structures HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:07:48:32 +0000] "GET /api/v1/search/Data%20Structures HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:07:49:03 +0000] "GET /api/v1/search/$searchText=Data%20Structures HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:07:49:12 +0000] "GET /api/v1/search/?searchText=Data%20Structures HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:07:49:28 +0000] "GET /api/v1/search?searchText=Data%20Structures HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:07:52:53 +0000] "GET /api/v1/search_book?search=Data%20Structures HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:07:53:45 +0000] "GET /api/v1/books/search_book?search=Data%20Structures HTTP/1.1" 400 135 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:07:54:08 +0000] "GET /api/v1/books/search_book?search=%22Data%20Structures%22 HTTP/1.1" 400 135 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:07:55:50 +0000] "GET /api/v1/books/search_book?search=%22Data%20Structures%22 HTTP/1.1" 400 135 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:07:56:03 +0000] "GET /api/v1/books/search_book?search=Data%20Structures HTTP/1.1" 400 135 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:07:56:58 +0000] "GET /api/v1/books/search_book?search=Data%20Structures HTTP/1.1" 400 135 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:07:57:24 +0000] "GET /api/v1/books/search_book?search=Billy%20Adam HTTP/1.1" 400 135 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:07:58:15 +0000] "GET /api/v1/books/search_book?search=620 HTTP/1.1" 400 135 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:08:02:07 +0000] "GET /api/v1/books/search_book?search=620 HTTP/1.1" 400 135 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:08:02:48 +0000] "GET /api/v1/books/search_book?search=Economics HTTP/1.1" 400 135 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:08:03:38 +0000] "GET /api/v1/books?search=Economics HTTP/1.1" 200 2616 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:08:04:39 +0000] "GET /api/v1/books/search_book?search=Economics HTTP/1.1" 400 135 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:08:06:27 +0000] "GET /api/v1/books/search_book?search=%22Economics%22 HTTP/1.1" 400 135 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:08:06:40 +0000] "GET /api/v1/books/search_book?search:Economics HTTP/1.1" 400 135 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:08:15:06 +0000] "GET /api/v1/books/highToLow HTTP/1.1" 400 133 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:08:18:55 +0000] "GET /api/v1/books/highToLow HTTP/1.1" 400 133 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:08:18:59 +0000] "GET /api/v1/books/lowToHigh HTTP/1.1" 400 133 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:08:31:15 +0000] "GET /api/v1/books/search_book?search=Economics HTTP/1.1" 400 135 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:08:46:01 +0000] "GET /api/v1/books/search_book?bookName=Economics HTTP/1.1" 400 135 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:08:46:04 +0000] "GET /api/v1/books/search_book?bookName=Economics HTTP/1.1" 400 135 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:08:51:47 +0000] "GET /api/v1/books/search_book?bookName=Economics HTTP/1.1" 400 135 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:08:52:10 +0000] "GET /api/v1/books/search_book?bookName=Economics HTTP/1.1" 400 135 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:08:57:53 +0000] "GET /api/v1/books/search_book?bookName=Economics HTTP/1.1" 400 125 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:09:00:05 +0000] "GET /api/v1/books/search_book?bookName=Economics HTTP/1.1" 400 125 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:09:02:05 +0000] "GET /api/v1/books/search_book?bookName=Economics HTTP/1.1" 400 125 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:09:03:03 +0000] "GET /api/v1/books/search_book?bookName=Economics HTTP/1.1" 200 363 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:09:05:21 +0000] "GET /api/v1/books/search_book?bookName=Economics HTTP/1.1" 400 133 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:09:08:03 +0000] "GET /api/v1/books/highToLow HTTP/1.1" 202 8677 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:09:08:15 +0000] "GET /api/v1/books/lowToHigh HTTP/1.1" 202 8675 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:09:12:57 +0000] "GET /api/v1/books/search_book?bookName=4880 HTTP/1.1" 200 363 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:09:13:57 +0000] "GET /api/v1/books/search_book?bookName=Economics HTTP/1.1" 400 127 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:09:14:35 +0000] "GET /api/v1/books/search_book?bookName=Economics HTTP/1.1" 400 127 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:09:27:53 +0000] "GET /api/v1/books/search_book?bookName=Economics HTTP/1.1" 200 363 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:09:28:08 +0000] "GET /api/v1/books/search_book?bookName=4880 HTTP/1.1" 200 8350 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:09:30:34 +0000] "GET /api/v1/books/search_book?bookName=4880 HTTP/1.1" 200 363 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:09:34:18 +0000] "GET /api/v1/books/sorting HTTP/1.1" 202 8677 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:09:47:07 +0000] "GET /api/v1/books/sorting HTTP/1.1" 400 64 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:09:48:55 +0000] "GET /api/v1/books/sorting HTTP/1.1" 202 8657 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:09:55:22 +0000] "GET /api/v1/books/sorting HTTP/1.1" 400 63 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:09:56:43 +0000] "GET /api/v1/books/sorting?Economics HTTP/1.1" 202 8657 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:09:57:42 +0000] "GET /api/v1/books/sorting?bookName=Economics HTTP/1.1" 202 8657 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:09:58:49 +0000] "GET /api/v1/books/sorting?bookName HTTP/1.1" 202 8657 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:10:04:34 +0000] "GET /api/v1/books/sorting?sort_key=bookName&order=asc HTTP/1.1" 202 8657 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:10:09:53 +0000] "GET /api/v1/books/sorting?sort_key=bookName&order=asc HTTP/1.1" 202 8657 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:10:11:05 +0000] "GET /api/v1/books/sorting?sort_key=bookName&order=des HTTP/1.1" 202 8657 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:10:11:35 +0000] "GET /api/v1/books/sorting?sort_key=bookName&order=dsc HTTP/1.1" 202 8657 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:10:12:29 +0000] "GET /api/v1/books/sorting?sort_key=price&order=dsc HTTP/1.1" 202 8657 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:11:37:42 +0000] "GET /api/v1/books?page=1&size=2 HTTP/1.1" 200 1680 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:11:38:08 +0000] "GET /api/v1/books/search_book?bookName=Datastructures HTTP/1.1" 200 60 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:11:43:01 +0000] "GET /api/v1/books/search_book?bookName=DataStruc HTTP/1.1" 200 60 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:11:43:15 +0000] "GET /api/v1/books/search_book?bookName=Dat HTTP/1.1" 200 393 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:11:43:23 +0000] "GET /api/v1/books/search_book?bookName=da HTTP/1.1" 200 1429 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:11:43:30 +0000] "GET /api/v1/books/search_book?bookName=ec HTTP/1.1" 200 363 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:11:44:14 +0000] "GET /api/v1/books/search_book?bookName=ics HTTP/1.1" 200 363 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:11:44:29 +0000] "GET /api/v1/books/search_book?bookName=spi HTTP/1.1" 200 60 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:11:44:35 +0000] "GET /api/v1/books/search_book?bookName=s HTTP/1.1" 200 6142 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:11:44:51 +0000] "GET /api/v1/books/search_book?bookName=c HTTP/1.1" 200 3788 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:11:44:59 +0000] "GET /api/v1/books/search_book?bookName=comp HTTP/1.1" 200 378 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:11:46:08 +0000] "GET /api/v1/books/search_book?bookName=120 HTTP/1.1" 200 365 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:11:46:15 +0000] "GET /api/v1/books/search_book?bookName=12 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [23/Mar/2023:11:46:30 +0000] "GET /api/v1/books/search_book?bookName=500 HTTP/1.1" 200 1591 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [24/Mar/2023:05:32:35 +0000] "GET /api/v1/books/sorting?sort_key=price&order=dsc HTTP/1.1" 202 8657 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [24/Mar/2023:05:33:36 +0000] "GET /api/v1/books/sorting?sort_key=price&order=asc HTTP/1.1" 202 8657 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:16:32:16 +0000] "GET /api/v1/books/search_book?bookName=500 HTTP/1.1" 200 1656 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:16:35:14 +0000] "GET /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:16:35:36 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:16:37:57 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:16:38:01 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:16:39:19 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:16:40:30 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:16:42:23 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:16:44:46 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:16:45:44 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 400 67 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:16:46:44 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 400 65 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:16:48:09 +0000] "GET /api/v1/books/621588f105253301a4fda5d0 HTTP/1.1" 200 376 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:16:49:41 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:16:54:18 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 400 66 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:16:55:25 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 200 308 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:17:18:23 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 200 346 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:17:32:22 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 200 346 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:17:33:09 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 200 393 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:17:37:27 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 200 411 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:17:50:04 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 200 411 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:17:50:10 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 200 411 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:17:50:52 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 400 52 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:17:58:17 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:17:58:21 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:17:58:52 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 200 411 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:18:00:15 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 200 411 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:18:01:30 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 200 411 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:18:29:57 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 400 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:18:32:04 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 400 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:18:34:15 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 200 411 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:18:37:23 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 400 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:18:37:55 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 400 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:18:39:03 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 400 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:18:39:08 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 400 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [26/Mar/2023:18:39:55 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 400 86 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:09:58 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 200 87 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:11:12 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 200 87 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:11:33 +0000] "GET /api/v1/books/search_book?bookName=500 HTTP/1.1" 200 1896 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:11:39 +0000] "GET /api/v1/books?page=1&size=2 HTTP/1.1" 200 1706 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:11:48 +0000] "GET /api/v1/books/621588f105253301a4fda5d0 HTTP/1.1" 200 616 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:17:36 +0000] "POST /api/v1/users HTTP/1.1" 500 66 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:17:50 +0000] "POST /api/v1/users HTTP/1.1" 400 92 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:17:58 +0000] "POST /api/v1/users HTTP/1.1" 201 364 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:18:56 +0000] "POST /api/v1/users HTTP/1.1" 201 354 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:19:53 +0000] "POST /api/v1/users HTTP/1.1" 201 365 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:20:19 +0000] "POST /api/v1/users/login HTTP/1.1" 200 250 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:21:52 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 200 87 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:22:02 +0000] "GET /api/v1/books/sorting?sort_key=price&order=asc HTTP/1.1" 202 9323 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:26:10 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 200 87 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:26:32 +0000] "GET /api/v1/books/sorting?sort_key=price&order=asc HTTP/1.1" 202 9090 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:26:41 +0000] "GET /api/v1/books/621588f105253301a4fda5d0 HTTP/1.1" 200 549 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:27:20 +0000] "GET /api/v1/books/search_book?bookName=500 HTTP/1.1" 200 1829 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:27:26 +0000] "GET /api/v1/books/sorting?sort_key=price&order=asc HTTP/1.1" 202 9090 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:27:33 +0000] "GET /api/v1/books/621588f105253301a4fda5d0 HTTP/1.1" 200 549 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:30:26 +0000] "POST /api/v1/users/login HTTP/1.1" 200 245 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:31:52 +0000] "POST /api/v1/books/customer_rating/621588f105253301a4fda5d0 HTTP/1.1" 200 87 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:33:18 +0000] "GET /api/v1/books HTTP/1.1" 200 2681 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:35:13 +0000] "POST /api/v1/books/customer_rating/6215178d05253301a4fda5c4 HTTP/1.1" 200 87 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:08:37:06 +0000] "POST /api/v1/books/customer_rating/6215178d05253301a4fda5c4 HTTP/1.1" 200 87 "-" "PostmanRuntime/7.31.3"
+
+error: uncaughtException: customerRoute is not defined
+ReferenceError: customerRoute is not defined
+    at routes (D:\My-Book-Store\BookStore\src\routes\/index.js:24:28)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Mar 27 2023 14:10:51 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":755073.796},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19032348,"external":20548658,"heapTotal":94580736,"heapUsed":63129808,"rss":132571136},"pid":23088,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: customerRoute is not defined\n    at routes (D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js:24:28)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":28,"file":"D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js","function":"routes","line":24,"method":null,"native":false},{"column":38,"file":"D:\\My-Book-Store\\BookStore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: customerRoute is not defined
+ReferenceError: customerRoute is not defined
+    at routes (D:\My-Book-Store\BookStore\src\routes\/index.js:24:28)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Mar 27 2023 14:11:00 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":755083.343},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19055471,"external":20572508,"heapTotal":91172864,"heapUsed":71766928,"rss":134295552},"pid":10368,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: customerRoute is not defined\n    at routes (D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js:24:28)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":28,"file":"D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js","function":"routes","line":24,"method":null,"native":false},{"column":38,"file":"D:\\My-Book-Store\\BookStore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: customerRoute is not defined
+ReferenceError: customerRoute is not defined
+    at routes (D:\My-Book-Store\BookStore\src\routes\/index.js:24:28)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Mar 27 2023 14:11:08 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":755091.562},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19055469,"external":20572506,"heapTotal":91435008,"heapUsed":71692448,"rss":134148096},"pid":2156,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: customerRoute is not defined\n    at routes (D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js:24:28)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":28,"file":"D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js","function":"routes","line":24,"method":null,"native":false},{"column":38,"file":"D:\\My-Book-Store\\BookStore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: customerRoute is not defined
+ReferenceError: customerRoute is not defined
+    at routes (D:\My-Book-Store\BookStore\src\routes\/index.js:24:28)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Mar 27 2023 14:11:19 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":755101.968},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19055471,"external":20572508,"heapTotal":91435008,"heapUsed":71983056,"rss":134029312},"pid":21024,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: customerRoute is not defined\n    at routes (D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js:24:28)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":28,"file":"D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js","function":"routes","line":24,"method":null,"native":false},{"column":38,"file":"D:\\My-Book-Store\\BookStore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: customerRoute is not defined
+ReferenceError: customerRoute is not defined
+    at routes (D:\My-Book-Store\BookStore\src\routes\/index.js:24:28)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Mar 27 2023 14:15:07 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":755330.062},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19055471,"external":20572508,"heapTotal":91435008,"heapUsed":71943032,"rss":134307840},"pid":17472,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: customerRoute is not defined\n    at routes (D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js:24:28)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":28,"file":"D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js","function":"routes","line":24,"method":null,"native":false},{"column":38,"file":"D:\\My-Book-Store\\BookStore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: customerRoute is not defined
+ReferenceError: customerRoute is not defined
+    at routes (D:\My-Book-Store\BookStore\src\routes\/index.js:24:28)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Mar 27 2023 14:15:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":755343.39},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19055471,"external":20572508,"heapTotal":91435008,"heapUsed":71974040,"rss":133619712},"pid":17108,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: customerRoute is not defined\n    at routes (D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js:24:28)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":28,"file":"D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js","function":"routes","line":24,"method":null,"native":false},{"column":38,"file":"D:\\My-Book-Store\\BookStore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: customerRoute is not defined
+ReferenceError: customerRoute is not defined
+    at routes (D:\My-Book-Store\BookStore\src\routes\/index.js:24:28)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Mar 27 2023 14:15:54 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":755377.375},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19055471,"external":20572508,"heapTotal":91172864,"heapUsed":71883904,"rss":133525504},"pid":10448,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: customerRoute is not defined\n    at routes (D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js:24:28)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":28,"file":"D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js","function":"routes","line":24,"method":null,"native":false},{"column":38,"file":"D:\\My-Book-Store\\BookStore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: customerRoute is not defined
+ReferenceError: customerRoute is not defined
+    at routes (D:\My-Book-Store\BookStore\src\routes\/index.js:24:28)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Mar 27 2023 14:16:09 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":755392},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19055471,"external":20572508,"heapTotal":91172864,"heapUsed":71934912,"rss":133177344},"pid":24520,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: customerRoute is not defined\n    at routes (D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js:24:28)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":28,"file":"D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js","function":"routes","line":24,"method":null,"native":false},{"column":38,"file":"D:\\My-Book-Store\\BookStore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: customerRoute is not defined
+ReferenceError: customerRoute is not defined
+    at routes (D:\My-Book-Store\BookStore\src\routes\/index.js:24:28)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Mar 27 2023 14:16:14 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":755397.14},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19055471,"external":20572508,"heapTotal":91172864,"heapUsed":72167800,"rss":134119424},"pid":23616,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: customerRoute is not defined\n    at routes (D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js:24:28)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":28,"file":"D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js","function":"routes","line":24,"method":null,"native":false},{"column":38,"file":"D:\\My-Book-Store\\BookStore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: customerRoute is not defined
+ReferenceError: customerRoute is not defined
+    at routes (D:\My-Book-Store\BookStore\src\routes\/index.js:24:28)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\My-Book-Store\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\My-Book-Store\BookStore\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Mar 27 2023 14:16:25 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":755408.156},"process":{"argv":["node","D:\\My-Book-Store\\BookStore\\src\\index.js"],"cwd":"D:\\My-Book-Store\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19055471,"external":20572508,"heapTotal":91172864,"heapUsed":72008024,"rss":134025216},"pid":22476,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: customerRoute is not defined\n    at routes (D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js:24:28)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":28,"file":"D:\\My-Book-Store\\BookStore\\src\\routes\\/index.js","function":"routes","line":24,"method":null,"native":false},{"column":38,"file":"D:\\My-Book-Store\\BookStore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\My-Book-Store\\BookStore\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: ::1 - - [27/Mar/2023:09:31:22 +0000] "POST /api/v1/customers/add_address%20 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:09:31:56 +0000] "POST /api/v1/customers/add_address%20 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:09:32:59 +0000] "POST /api/v1/customers/add_address HTTP/1.1" 500 67 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:09:33:10 +0000] "POST /api/v1/customers/add_address HTTP/1.1" 500 63 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:09:34:32 +0000] "POST /api/v1/customers/add_address HTTP/1.1" 500 83 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:09:34:54 +0000] "POST /api/v1/customers/add_address HTTP/1.1" 500 83 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:09:35:28 +0000] "POST /api/v1/customers/add_address HTTP/1.1" 500 79 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:09:35:50 +0000] "POST /api/v1/customers/add_address HTTP/1.1" 201 430 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:09:37:03 +0000] "POST /api/v1/customers/add_address HTTP/1.1" 500 98 "-" "PostmanRuntime/7.31.3"
+
+info: ::1 - - [27/Mar/2023:09:37:33 +0000] "POST /api/v1/customers/add_address HTTP/1.1" 201 96 "-" "PostmanRuntime/7.31.3"
+
